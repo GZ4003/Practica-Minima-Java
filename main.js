@@ -79,16 +79,61 @@
 // }
 // console.log(person.name) 
 
-const person = {
-    'name': 'gonzalo pinto',
-    'age' : 21,
-    'dirección' : 'buenos aires',
-    'carrer': 'medicina',
+// const person = {
+//     'name': 'gonzalo pinto',
+//     'age' : 21,
+//     'dirección' : 'buenos aires',
+//     'carrer': 'medicina',
 
-    saludar: () => {
-         console.log('hola')
+//     saludar: () => {
+//          console.log('hola')
     
-    }
-}
+//     }
+// }
+// console.log(Object.values(person)
+// console.log(person.name)
 
-console.log(person.name)
+// const person =  {
+//     'name' : 'facundo ruben',
+//     'age'  :  25,
+//     'direccion' : 'alemania',
+//     'carrer' : 'veterinario',
+//     'homeBanking' : {
+//         'banco' : 'galicia'
+//     }
+//     ,
+//     saludar: () => {
+//         console.log('Hola')
+//     }
+// }
+// console.log(Object.keys(person))
+// console.log(Object.values(person))
+
+// -----const persona = {
+// -----    'nombre' : 'pepita rodriguez',
+// -----    'edad' : 29,
+// -----    'direccion' : 'paris',
+// -----    'carrera' : 'doctora',
+// -----    saludar : () => {
+// -----        console.log('saludo')
+// -----   }
+// -----}
+// ---------console.log(Object.keys(persona))
+// ---------console.log(Object.values(persona))
+
+// ---Esto es un array y lo que esta diciendo es que me devuelva el valor 1 
+// ---const numeros = [1, 2, 3]
+//---- console.log(numeros.filter(item => item === 1))
+
+
+//La evolución del FOR. estoy declarando una varaiable  especifica en person que seria el objeto. Lo que
+//hace es que item se mueva elemento por elemento
+
+
+// const ObjectInteration = () => {
+//     for(let item in persona){
+//         console.log(`${persona[item]}`)
+//     }
+// }
+
+// ObjectInteration()
