@@ -177,3 +177,38 @@
 
 // console.log(myArray.push(7), myArray)
 
+
+///// concat para unir arrays
+//  const numeros = [1,2,3,4,5]
+
+//  const numeros2 = [6,7,8,9,10]
+
+//  const numeroscompletos = numeros.concat(numeros2)
+
+//  console.log(numeroscompletos)
+
+
+const robot = moves  => {
+    let initialpositionY = 0
+    let initialpositionX = 0
+
+    for(let i = 0; i < moves.length; i++){
+        if(moves[i] === 'U'){
+            initialpositionY = initialpositionY +1;
+        } else if(moves[i] === 'D'){
+            initialpositionY = initialpositionY -1;
+        } else if(moves[i] ===  'L'){
+            initialpositionX = initialpositionX -1;
+        } else if(moves[i] === 'R'){
+            initialpositionX = initialpositionX +1
+        } else {
+            console.log('datos incorretos')
+        }
+    }
+
+    return initialpositionX === 0 && initialpositionY === 0 && console.log('Estas bien')
+}
+
+console.log(robot('RRLLDDUU'))
+
+// console.log(robot('RRL'))
