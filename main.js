@@ -137,3 +137,43 @@
 // }
 
 // ObjectInteration()
+
+
+//    ARRAYS  [] siemprese escriben en corchetes los array si fueran llaves {} serian un objeto 
+
+// const myArray = [1,2,3,4,5]
+
+// console.log( myArray [0] +1)
+
+// const myArray = [{nombre :'alexis'},{apellido:'gomez'},{edad:22}]
+
+// console.log(myArray [2])
+
+// const Datos = [{nombre:'camila'},{apellido:'cosentino'},{edad:21}]
+
+// console.log(Datos[2].edad)
+
+// -----const Información = [{nombre :'alexis'},{segundonombre:'gabriel'},{apellido:'gomez'},{edad:22},{profesion:'programacion'},
+// -----{direccion:'mateo sanchez'},{ciudad:'buenos aires'},{comida:'milanesas'}]
+
+// ------console.log(Información[7].comida)
+
+// const datos = [{nombre:'alexis'},{apellido:'gomez'},{profesion:'programador'},{edad:21}]
+
+// console.log(datos [0].nombre)
+
+
+/////////////   ARRAYS METODOS ///////////
+//////// para llamar un metodo se llama como una funcion () ///////
+
+// const myArray = [5,2,6,4,3,1]
+
+// console(myArray.sort())
+
+// .sort ordena los arrays como 123456
+
+/// PUSH AGREGA NUEVOS ELEMENTOS 
+// const myArray = [1,3,6,5,2,4]
+
+// console.log(myArray.push(7), myArray)
+
